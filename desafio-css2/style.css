@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Shadows+Into+Light&family=Share+Tech&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{ 
+      margin: 0;
+      padding: 0;
+      ;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0F5959;
+    font-size: 1.2em;
+}
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #1D7373,#042326);
+   padding: 10px;
+   height: 100%;
+ 
+}
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+header > h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#menu > a{
+    text-decoration: none;
+    color: #15947d;
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#menu > a:hover{
+text-decoration: underline;
+background-color: rgb(24, 44, 24);
+border-radius: 5px;
+margin-bottom: 5px;
+padding: 10px;
+transition-duration: 0.5s;
+}
+
+main{
+    max-width: 1100px; word-wrap: break-word;
+    width: 95%;
+    margin: 0px auto;
+    padding: 0x;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px black;
+}
+
+
+main > h1{
+
+    font-family: "Share Tech Mono", monospace;
+    color: #042326;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+
+main > h2{
+     font-family: "Share Tech Mono", monospace;
+    color: #042326;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #1D7373, white);
+    margin: 0px 10px;
+
+}
+
+main > p{
+    text-indent: 20px;
+    text-align: justify;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: lighter;
+    margin: 5px 0px;
+    padding: 20px;
+
+}
+
+main > p > span {
+    color: #042326;
+    font-weight: bold;
+}
+
+main > p > span > a{
+    background-color: #15947d;
+    text-decoration: none;
+    color: black;
+
+}
+
+main > p > span > a:hover{
+    text-decoration: underline;
+}
+.imagem{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+
+    
+}
+
+iframe{
+  max-width: 600px;
+  max-width: 95%;
+  margin: auto;
+  
+ 
+}
+#fundovideo {
+  background-color: #042326;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+
+
+}
+
+#info{
+    margin: 40px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400px;
+    max-width: 700px;
+    width: 95%;
+    
+}
+
+#info > h1{
+    background-color: #0F5959;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 5px;
+    font-weight: lighter;
+}
+
+#info > p {
+text-align: justify;
+background-color: #15947d;
+text-indent: 20px;
+letter-spacing: 2px;
+}
+
+#info > ul {
+margin: px auto;
+text-align: justify;
+background-color: #15947d;
+padding-left: 30px;
+column-count: 2;
+}
+
+section >p >span {
+color: #284649;
+font-weight: bold;
+}
+section > p > span > a{
+    background-color: #042326;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+section > p > span > a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #000000;
+    color: white;
+    margin: 20px auto auto auto;
+
+}
+
+footer >p{
+    text-align: center;
+}
